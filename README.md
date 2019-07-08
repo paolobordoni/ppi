@@ -15,7 +15,7 @@ Os spider estão no diretório auto_ppi/spiders/, sendo:
 * robotMH: coleta Média Hospitalar
 * robotAH: coleta Alta Hospitalar
 
-## Executável
+## Como Utilizar
 
 É possível executar os spiders individualmente através do comando
 ```
