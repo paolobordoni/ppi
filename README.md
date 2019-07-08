@@ -1,14 +1,14 @@
 # Spider PPI - Scrapy
 Automatização de coleta de dados do site da PPI (Programação Pactuada e Integrada).
 
-Este spider foi escrito utilizando o framework: [Scrapy.org](https://scrapy.org/)
+Estes *spiders* foram escritos utilizando o framework: [Scrapy.org](https://scrapy.org/)
 
 Fonte de Dados: [PPI](http://ppiassistencial.saude.mg.gov.br/municipioTabelaUnificada.php)
 
 
 
 ## Spiders
-Os spider estão no diretório auto_ppi/spiders/, sendo:
+Os *spiders* estão no diretório `auto_ppi/spiders/`, sendo:
 
 * robotMA: coleta Média Ambulatorial
 * robotAA: coleta Alta Ambulatorial
