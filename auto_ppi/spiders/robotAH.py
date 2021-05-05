@@ -5,8 +5,8 @@ import logging
 
 class PpiSpider3(scrapy.Spider):
     name = 'robotAH'
-    allowed_domains = ['ppiassistencial.saude.mg.gov.br']
-    start_urls = ['http://ppiassistencial.saude.mg.gov.br/municipioTabelaUnificada.php']
+    allowed_domains = ['ppiassistencial_antigo.saude.mg.gov.br']
+    start_urls = ['http://ppiassistencial_antigo.saude.mg.gov.br/municipioTabelaUnificada.php']
     competencia = '201806' #Competendia yyyymm
     atendimento = '312230' #Atendimento 0=Todas, XXXXXX=Cod. da Regiao
     complexidade = '3' #Complexidade 0=Todas 2=Media 3=Alta
